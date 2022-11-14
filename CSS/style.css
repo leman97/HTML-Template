@@ -2,74 +2,90 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
-    background-image: url('../img/bg.jpg');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), 
+    url('../img/cin.jpg');
     height: 100vh;
     background-size: 100% 100%;
 }
+
 .container .bar {
     width: 100%;
     height: 80px;
-    background-color: lightblue;
+    background-color: white;
 }
+
 .bar ul {
     float: right;
     margin-right: 20px;
 }
+
 .bar .logo {
     display: inline-block;
     margin-left: 50px;
     margin-top: 20px;
 }
+
 .bar .logo a {
     text-decoration: none;
     font-family: sans-serif;
-    color: white;
+    color:purple;
     font-size: 30px;
 }
+
 .bar ul li {
     list-style: none;
     display: inline-block;
     margin: 0 8px;
     line-height: 50px;
 }
+
 .bar ul li a {
     text-decoration: none;
-    color: white;
+    color: purple;
     font-size: 20px;
     padding: 6px 13px;
     font-family: Arial, Helvetica, sans-serif
 }
-.bar ul li a:hover{
-    background: orangered;
+
+.bar ul li a:hover {
+    background: black;
+    color: white;
     transition: 2s;
     border-radius: 10px;
 }
-.container .center{
+
+.container .center {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-family: sans-serif;
     user-select: none;
 }
+
 .center h1 {
-    color: black;
+    color: white;
     font-size: 70px;
     font-weight: bold;
     width: 900px;
     text-align: center;
 }
+
 .center h2 {
     color: white;
     font-size: 50px;
-    font-weight: bold;
     width: 885px;
     text-align: center;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
 }
+
 .center .buttons {
     margin: 35px 280px;
 }
+
 .buttons button {
     height: 50px;
     width: 150px;
@@ -83,6 +99,7 @@ body {
     font-weight: bold;
     transition: 2s;
 }
+
 .buttons button:hover {
     background-color: lightblue;
 }
